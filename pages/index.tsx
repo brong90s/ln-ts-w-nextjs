@@ -5,5 +5,6 @@ export default function Home() {
   useEffect(() => {
     play();
   }, []);
+
   return <div>Hello World</div>;
 }
